@@ -1,0 +1,23 @@
+import java.util*; //Allows use of Scanner
+
+public class SolveQuadratic
+{
+    public static void main(String args[]) 
+    {
+        int a, b, c; //ax^2 + bx + c
+        double discriminant; // b^2 - 4ac
+        double root1, root2; // root1 for add, root2 for subtract
+        Scanner keyboard = new Scanner(System.in); // Creates an object for inputs
+        
+        System.out.print ("Enter the coefficient of x^2 " );
+        a = keyboard.nextInt();
+        
+        System.out.print ("Enter the coefficient of x: ");
+        b = keyboard.nextInt();
+        
+        System.out.print ("Enter the constant: ");
+        c = keyboard.nextInt();
+        
+        //use
+    }
+}
